@@ -262,3 +262,71 @@ body {
     left: 1px;
     text-align: center;
 }
+
+.subscription {
+    margin-bottom: 239px;
+}
+
+.subscription h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 150%;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 59px;
+}
+
+.subscription-form{
+    margin: 0 auto;
+}
+
+.submit-input{
+    width: 541px;
+    height: 62px;
+    background: transparent;
+    border: 1px solid #666666;
+    border-right: 0;
+    border-radius: 2px 0 0 2px;
+    font-family: 'Roboto';
+    font-size: 23px;
+    line-height: 27px;
+    color: #666666;
+    padding-left: 15px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.submit-form-line{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.submit-btn{
+    width: 121px;
+    height: 62px;
+    justify-content: center;
+    text-transform: capitalize;
+    background: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Roboto';
+    font-size: 23px;
+    line-height: 27px;
+    vertical-align: middle;
+    color:rgba(247, 247, 247, 1);
+}
+
+.submit-btn:hover {
+    background: #E39128;
+    border: 1px solid #E39128;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.submit-btn:focus {
+    background: #E39128;
+    border: 1px solid #E39128;
+    border-radius: 0px 5px 5px 0px;
+}
