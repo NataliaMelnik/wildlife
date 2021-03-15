@@ -330,3 +330,45 @@ body {
     border: 1px solid #E39128;
     border-radius: 0px 5px 5px 0px;
 }
+
+.footer-color {
+    background: #181617 url("/assets/img/footer.jpg") no-repeat center;
+    background-size: cover;
+    height: 360px;
+    padding-top: 150px;
+}
+
+.footer-navigation{
+    position: relative;
+    left: 6px;
+}
+
+.footer-navigation-item {
+    margin-right: 89px;
+}
+
+.footer-navigation-item:last-child {
+    margin-right: 0px;
+}
+
+.footer-navigation-item:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.address-navigation{
+    height: 60px;
+}
+
+.footer-address-item{
+    margin-right: 26px;
+}
+
+.footer-address-item:last-child{
+    margin-right: 0px;
+}
+
+.footer-address-item:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
